@@ -1,4 +1,7 @@
-for (i = 0; i < 10; i++) {
-  if (i % 2 != 0) continue;
-  console.log(i);
+do {
+  number = prompt("Введите число больше 100");
+} while (number < 100 && number == NaN);
+
+if (number === null) {
+  document.write("Вы не ввели число");
 }
